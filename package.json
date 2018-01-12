@@ -1,0 +1,16 @@
+{
+  "name": "web-performance-monitoring",
+  "version": "0.0.1",
+  "description": "A tool to track web performance across time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env DEBUG='puppeteer:*,-puppeteer:protocol,-puppeteer:session' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "devtools-timeline-model": "^1.3.1",
+    "puppeteer": "^0.13.0"
+  }
+}
