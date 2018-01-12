@@ -57,13 +57,6 @@ TimelineMetrics.prototype.processTracingRecord_ = function(e) {
         }, 'tracing');
       }
       break;
-    case 'R':
-      if (e.name === 'domContentLoadedEventEnd') {
-        this.DOMContentLoaded = (e.ts)/ 1000;
-        console.log('============ performance-browser-summary.js ::: processTracingRecord_ ::: 63 =============');
-        console.log('this.DOMContentLoaded -', (e.tts)/ 1000000);
-        console.log('============ performance-browser-summary.js ::: processTracingRecord_ ::: 63 =============');
-      }
   }
 };
 

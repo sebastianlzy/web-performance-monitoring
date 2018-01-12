@@ -1,5 +1,5 @@
 
-let filename = 'trace.json';
+let filename = './traceProfile/trace.json';
 let events = require('fs').readFileSync(filename, 'utf8');
 
 let DevtoolsTimelineModel = require('devtools-timeline-model');
