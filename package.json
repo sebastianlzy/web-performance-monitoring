@@ -4,7 +4,7 @@
   "description": "A tool to track web performance across time",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "start": "env DEBUG='puppeteer:*,-puppeteer:protocol,-puppeteer:session' node index.js",
     "summary": "node parseTimelineTrace"
   },
